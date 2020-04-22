@@ -257,7 +257,7 @@ z-index: -1;
   transform: scale(.9) translateY(95px);
 }
 .movie-card-detail{
-  background-color: #516f8d;
+  background-color: #203345;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   position: relative;
@@ -269,13 +269,15 @@ z-index: -1;
   color: aliceblue;
   position: relative;
   float: left;
-  margin-bottom: -100px;
+  height: 70%;
   transition: transform ease-out .2s;
 }
 .movie-card:hover{
-  transform: scale(1.25) translateY(14px) ;
+  transform: scale(1.45) translateY(21px) ;
   z-index: 1;
+  padding-bottom: -100px;
 }
+
 
 /* .movie-card:hover .Bing{
   z-index: -1;
