@@ -4,9 +4,9 @@ h1 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+html {
+  margin: 0px;
+  padding: 0px;
 }
 
 table {
@@ -49,6 +49,8 @@ footer {
   height: 200px;
   background-color: #203345;
   position: relative;
+  margin-right: -15px;
+  margin-bottom: -30px;
 }
 .profile-icon {
   transition: transform .2s;
@@ -114,10 +116,10 @@ footer {
 }
 
 .playButton {
-  position: relative;
+  position: absolute;
   z-index: 1;
-  width: 6%;
-  left: 800px;
+  width: 5.5%;
+  right: 400px;
   top: 150px;
   margin-bottom: -100px;
   transition: transform ease-out .2s;
@@ -127,11 +129,16 @@ footer {
   transform: scale(1.2);
 }
 
+
+
+#img1{
+display: block;
+
+}
 .moneyheist-img1 {
   position: relative;
   float: right;
   height: 400px;
-  width: 75%;
   background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(255, 255, 255));
 }
 
@@ -144,7 +151,6 @@ footer {
   z-index: 1;
   transition: transform ease-out .2s;
   box-shadow: 3px 3px 6px #111b22;
-  display: block;
 
 }
 
@@ -155,17 +161,14 @@ footer {
 
 .moneyheist-detail-text {
   position: relative;
-  top: -40px;
-  left: 29.5%;
+  left: 400px;
+  top: -100px;
   width: 600px;
+  height: 110px;
   color: #e2e2e2;
 }
 
-.moneyheist-text {
-  position: absolute;
-  top: 348px;
-  left: 380px;
-}
+
 
 .moneyheist-detail {
   position: relative;
@@ -187,13 +190,17 @@ footer {
   box-shadow: 0PX 1.5px 4px #0099ff;
 }
 
+.fan{
+  align-content: center;
+}
+
 .language {
   height: 140px;
   width: 140px;
   border-radius: 5px;
   position: relative;
   transition: transform ease-out .2s;
-
+  
 }
 
 .language:hover {
@@ -201,21 +208,22 @@ footer {
 }
 
 .language-card {
-  margin-right: 29px;
-  float: left;
-}
+width: 130px;
+height: 140px;
+border-radius: 3px;
+margin: 5px 0;
+position: relative;
 
+}
 .genere-card {
-  margin-right: 39px;
-  float: left;
+  width: 250px;
 }
 .genere-card:hover .genere-detail{
   transform: scale(.9) translateY(30px);
 
 }
 .genere {
-  height: 140px;
-  width: 260px;
+  width: 250px;
   border-radius: 5px;
   position: relative;
   box-shadow: 0PX 2px 3px #141d25;
@@ -243,8 +251,8 @@ footer {
   z-index: 1;
   position: relative;
   font-size: 10px;
-  left: 125px;
-
+  left: 120px;
+  
 }
 
 .explore:hover {
@@ -255,9 +263,9 @@ footer {
 .seeMore {
   background-color: #203345;
   border-radius: 5px;
-  width: 1200px;
-  top: 200px;
+  width: 95%;
   transition: transform .3s;
+  text-align: center;
 }
 
 .seeMore:hover {
@@ -283,14 +291,13 @@ footer {
   position: relative;
   left: 30px;
   border-radius: 10px;
-  height: auto;
-  width: 1100px;
-  transition: transform ease-out .2s;
+  width: 100%;
+  transition: transform ease-out .35s;
   box-shadow: 0PX 5px 5px #141d25;
 }
 
 .topRated-card {
-  transition: transform ease-out .2s;
+  transition: transform ease-out .3s;
   margin-bottom: -30px;
 }
 
@@ -316,11 +323,11 @@ footer {
 .topRated-detail {
   position: relative;
   top: -160px;
+  width: 96.5%;
   box-shadow: 0PX 5px 5px #141d25;
   background-color: #203345;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  transform: scale(1);
   z-index: -1;
   transition: transform ease-out .2s;
   padding-top: 10px;
@@ -345,34 +352,41 @@ footer {
   
 } */
 .movie-card:hover .movie-card-detail {
-  transform: scale(.9) translateY(95px);
+  transform: scale(.97) translateY(92px);
 }
 
 .movie-card-detail {
   background-color: #203345;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  position: relative;
+  position: absolute;
+  height: 90px;
+  top: 0px;
+  left: 23px;
   z-index: -1;
-  top: -93px;
-  transition: transform ease-out .2s;
+  transition: transform ease-out .35s;
   box-shadow: 0PX 2px 3px #141d25;
 }
 
 .movie-card {
   color: aliceblue;
+  margin: 20px 5px 5px 5px;
   position: relative;
-  float: left;
-  height: 70%;
-  transition: transform ease-out .18s;
+  transition: transform ease-out .3s;
 }
 
 .movie-card:hover {
-  transform: scale(1.45) translateY(21px);
+  transform: scale(1.3) translateY(15px);
   z-index: 1;
   padding-bottom: -100px;
 }
+.fan{
+  justify-content: space-evenly;
+  display: flex;
+flex-wrap: wrap;
 
+
+}
 
 /* .movie-card:hover .Bing{
   z-index: -1;
@@ -400,13 +414,7 @@ footer {
   }
 }
 
-/* .fanFav{
-  margin-bottom: 30px;
-}
-.movie-card:hover .fanFav{
-  animation: fanFav .2s;
-  margin-bottom: 100px;
-} */
+
 @keyframes fanFav {
   0% {
     margin-bottom: 30px;
@@ -448,3 +456,185 @@ footer {
     z-index: 1;
   }
 }
+
+#page2-detail{
+  width: 35%;
+position: relative;
+top: 50px;
+margin-bottom: 100px;
+
+}
+
+
+@media only screen and (max-width: 1360px){
+
+table {
+  margin-left: 3%;
+  margin-bottom: 100px;
+}
+#page2-detail {
+  text-align: center;
+  width: 40%;
+  top:458px;
+  left: 30%;
+  position: relative;
+}
+.fanFav{
+ position: relative;
+ top: 400px;
+}
+footer{
+  position: relative;
+  top: 410px;
+}
+
+}
+
+
+@media only screen and (max-width: 1070px) {
+  footer{
+    top:80px;
+  }
+  .fanFav {
+  position: relative;
+  top: 20px;
+}
+
+  table {
+  margin-left: 20%;
+  margin-bottom: 100px;
+}
+
+  #page2-detail {
+    text-align: center;
+    width: 70%;
+    left: 10%;
+    top: 20px;
+    position: relative;
+  }
+}
+
+
+
+@media only screen and (max-width: 1180px) {
+
+ 
+
+
+  #img1 {
+    display: none;
+  }
+  .moneyheist-img2 {
+  top: 60px;
+  left: 37%;
+}
+.moneyheist-detail-text {
+  text-align: center;
+  left: 27%;
+  top: 100px;
+  width: 500px;
+  height: 110px;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+
+}
+
+@media only screen and (max-width: 780px) {
+ 
+  .moneyheist-img2 {
+  left: 32%;
+}
+
+
+  .moneyheist-detail-text {
+    text-align: center;
+    left: 18%;
+    top: 100px;
+    width: 500px;
+    height: 110px;
+    margin-bottom: 210px;
+    margin-top: 10px;
+  }
+  .topRated-detail {
+  top: -160px;
+  width: 94%;
+}
+
+
+}
+@media only screen and (max-width: 550px) {
+  #page2-detail {
+  top: -80px;
+  margin-bottom: -100px;
+  position: relative;
+}
+td {
+  padding-top: 25px;
+}
+.wishlist{
+  margin-top: 20px;
+}
+
+
+  .playButton{
+    left: 15%;
+    transform: scale(2.5);
+  }
+  #image1{
+    position: relative;
+    left: 20%;
+    transform: scale(.6);
+  }
+  .moneyheist-img2 {
+  left: 17%;
+}
+
+  .moneyheist-detail-text {
+  text-align: center;
+  left:-10%;
+  top: 100px;
+  width: 500px;
+  height: 110px;
+  margin-bottom: 210px;
+  margin-top: 10px;
+  transform: scale(.7);
+}
+  .topRated-card {
+    position: relative;
+    left: -40px;
+    top: 50px;
+  transition: transform ease-out 0.2s;
+  margin-bottom: -30px;
+  transform: scale(1.6);
+}
+.topRated-card:hover {
+  transform: scale(1.7) translateY(10px);
+  animation: topRated-card 30s ease-out;
+}
+
+ 
+  .topRated-detail {
+    border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+
+    top: -60px;
+    left: -175px;
+    width: 250%;
+    transform: scale(.3);
+  }
+  .topRated-card:hover .topRated-detail {
+  transform: scale(.35) translateY(90px);
+  box-shadow: 0PX 2px 3px #141d25;
+}
+.seeMore {
+  position: relative;
+  left: -40px;
+  width: 95%;
+}
+
+}
+
+
+

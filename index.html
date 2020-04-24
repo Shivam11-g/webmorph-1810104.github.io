@@ -17,7 +17,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark px-5" >
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #203345;">
         <a class="navbar-brand" href="#"><img style="position: relative; top: 5px;" src="image/flux.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,21 +57,23 @@
 
 
     <div class="page-1">
-        <div class="container-img">
-            <a href="#"><img src="image/play-button.svg" alt="" class="playButton"></a>
-            <img src="image/MoneyHeist-1.png" alt="" class="moneyheist-img1">
-            <h1 class="moneyheist-text">"Money Heist : Part 4"</h1>
+        <div class="container-img" id="img1"> 
+            <div class="container-img">
+                <a href="#"><img src="image/play-button.svg" alt="" class="playButton"></a>
+                <img src="image/MoneyHeist-1.png" alt="" class="moneyheist-img1" >
+            </div>
         </div>
 
-        <div class="container-img">
+        <div class="container-img fav">
             <img src="image/MoneyHeist-2.jpg" alt="" class="moneyheist-img2">
         </div>
         <div>
-            <div class="moneyheist-detail-text">
+            <div class="moneyheist-detail-text fav">
+                <h1 class="moneyheist-text">"Money Heist : Part 4"</h1>
                 <p>Lives are on the line Professor's plan begins to unravel and the thieves must fend off enemies from
                     both
                     inside and outside the Bank and Spain</p>
-                <a class="btn  watch px-4 " href="#" role="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
+                <div class="btn  watch px-4 " href="#" role="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
                         y="0px" width="28" height="28" viewBox="0 0 172 172" style=" fill:#000000;">
                         <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                             stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -84,7 +86,7 @@
                                 </path>
                             </g>
                         </g>
-                    </svg><span style="font-size:20px; color: white;"> Watch</span></a>
+                    </svg><span style="font-size:20px; color: white;"> Watch</span></div>
                 <button class="btn wishlist mx-3"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
                         height="24" viewBox="0 0 172 172" style=" fill:#000000;">
                         <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -105,332 +107,314 @@
 
 
 
-        <div class="mx-5 card-deck">
-            <div class="fanFav mx-5">
-                <div style=" margin-bottom: 20px;">
-                    <h5>| Fan Favourites</h5>
-                </div>
-                <div style="height: 200px;">
-                    <div class="movie-card mr-3 ">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image "></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
-                    </div>
+        
 
-                    <div class="movie-card mx-4">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
+        <div class="fanFav mx-5">
+            <div class="mx-5 mt-1 mb-3">
+                <h5>| Fan Favourites</h5>
+            </div>
+            <div class="fan">
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                                    width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
                                         </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
-                    </div>
-
-                    <div class="movie-card mx-3">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
-                    </div>
-                    <div class="movie-card " style="margin-left: 21px;">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
                     </div>
                 </div>
+
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
+                    </div>
+                </div>
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
+                    </div>
+                </div>   
             </div>
 
 
-
-
-
-            <div class="mx-5 Bing">
-                <div style=" margin-bottom: 20px;">
-                    <h5>| Bollywood Bing</h5>
+            <div class="mx-5 mb-2 mt-5">
+                <h5>| Bing Faverout</h5>
+            </div>
+            <div class="fan">
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
+                    </div>
                 </div>
-                <div style="height: 200px;">
-                    <div class="movie-card mr-3 ">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image "></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
+            
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
                                         </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
                     </div>
+                </div>
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
+                    </div>
+                </div>
+            
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
+                        <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
+                        <span style="font-weight: bold;">Gully Boy</span>
+                        <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                                    height="24" viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
+                                        <g fill="#ffffff" fill-rule="evenodd">
+                                            <path
+                                                d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </span>
+                        </a>
+                        <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
+                            on
+                            the lives of street
+                            rappers in Mumbai.</p>
+                        <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
+                            src="image/UA.svg" alt="">
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
 
-                    <div class="movie-card mx-4">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
+        <div class="ml-5 mb-5">
+            <div class="bing ">
+                <h5 class="ml-5 mb-3 mt-5">| Watch in your language</h5>
+            
+                <div class=" fan mr-5" >
+                    <div class=" language-card">
+                        <a href="#"><img src="image/english.png" alt="" class="language"></a>
                     </div>
-
-                    <div class="movie-card mx-3">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
+                    <div class="  language-card">
+                        <a href="#"><img src="image/hindi.png" alt="" class="language"></a>
                     </div>
-                    <div class="movie-card " style="margin-left: 21px;">
-                        <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                        <div class="movie-card-detail px-2 mt-1 pt-2 ">
-                            <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
-                            <span style="font-weight: bold;">Gully Boy</span>
-                            <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
-                                        y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
-                                        <g fill="none" fill-rule="none" stroke="none" stroke-width="1"
-                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
-                                            font-weight="none" font-size="none" text-anchor="none"
-                                            style="mix-blend-mode: normal">
-                                            <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
-                                            <g fill="#ffffff" fill-rule="evenodd">
-                                                <path
-                                                    d="M78.83333,14.33333v64.5h-64.5v14.33333h64.5v64.5h14.33333v-64.5h64.5v-14.33333h-64.5v-64.5z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </a>
-                            <p style="font-size:x-small; width: 200px; margin-bottom: 5px;">A coming-of-age story based
-                                on
-                                the lives of street
-                                rappers in Mumbai.</p>
-                            <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                                2019 | <img style="height: 8px;"
-                                    src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
-                                4.3 </p><img
-                                style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
-                                src="image/UA.svg" alt="">
-                        </div>
+                    <div class=" language-card">
+                        <a href="#"><img src="image/marathi.png" alt="" class="language"></a>
+                    </div>
+                    <div class=" language-card">
+                        <a href="#"><img src="image/telugu.png" alt="" class="language"></a>
+                    </div>
+                    <div class=" language-card">
+                        <a href="#"><img src="image/tamil.png" alt="" class="language"></a>
+                    </div>
+                    <div class=" language-card">
+                        <a href="#"><img src="image/bengali.png" alt="" class="language"></a>
+                    </div>
+                    <div class=" language-card">
+                        <a href="#"><img src="image/malyalam.png" alt="" class="language"></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="mx-5 mb-5 card-deck">
-            <div class="mx-5 " style=" margin-bottom: 20px;">
-                <h5>| Watch in your language</h5>
-            </div>
-            <div class="ml-5">
-                <div class=" language-card">
-                    <a href="#"><img src="image/english.png" alt="" class="language"></a>
-                </div>
-                <div class="  language-card">
-                    <a href="#"><img src="image/hindi.png" alt="" class="language"></a>
-                </div>
-                <div class=" language-card">
-                    <a href="#"><img src="image/marathi.png" alt="" class="language"></a>
-                </div>
-                <div class=" language-card">
-                    <a href="#"><img src="image/telugu.png" alt="" class="language"></a>
-                </div>
-                <div class=" language-card">
-                    <a href="#"><img src="image/tamil.png" alt="" class="language"></a>
-                </div>
-                <div class=" language-card">
-                    <a href="#"><img src="image/bengali.png" alt="" class="language"></a>
-                </div>
-                <div class=" language-card">
-                    <a href="#"><img src="image/malyalam.png" alt="" class="language"></a>
-                </div>
-            </div>
-        </div>
+
+
 
 
         <div class="mx-5 mb-5 ">
@@ -438,9 +422,9 @@
                 <h5>| Top Rated</h5>
             </div>
             <div class="mx-5">
-                <div class="topRated-card">
-                    <a href="#"><img src="image/137807.jpg" class="topRated  mt-2" alt="..."></a>
-                    <div class="topRated-detail mx-5">
+                <div class="topRated-card ">
+                    <img src="image/137807.jpg" class="topRated  mt-2" alt="...">
+                    <div class="topRated-detail mx-5 pl-2 pb-1">
                         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
                                 viewBox="0 0 172 172" style=" fill:#000000; float: left;">
                                 <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -484,13 +468,13 @@
 
 
 
-        <div class="mx-5 card-deck">
-            <div class="mx-5 " style=" margin-bottom: 20px;">
-                <h5>| Choose by Genere</h5>
+        <div class="mx-5">
+            <div class="ml-5 mb-4">
+                <h5 >| Choose by Genere</h5>
             </div>
-            <div class="ml-5">
+            <div class="fan">
                 <div class=" genere-card">
-                    <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+                    <img src="image/joker.jpg" alt="" class="genere">
                     <div class="genere-detail pt-1  " id="boxshadow">
                         <pre style="float: left; font-size:large; color: whitesmoke;">  Drama  </pre>
                         <span class="explore">
@@ -498,37 +482,33 @@
                     </div>
                 </div>
                 <div class=" genere-card">
-                    <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+                    <img src="image/joker.jpg" alt="" class="genere">
                     <div class="genere-detail pt-1  " id="boxshadow">
-                        <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                        <pre style="float: left; font-size:large; color: whitesmoke;">  Drama  </pre>
                         <span class="explore">
                             <a style="color: rgb(29, 135, 255);">+Explore</a></span>
                     </div>
                 </div>
                 <div class=" genere-card">
-                    <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+                    <img src="image/joker.jpg" alt="" class="genere">
                     <div class="genere-detail pt-1  " id="boxshadow">
-                        <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                        <pre style="float: left; font-size:large; color: whitesmoke;">  Drama  </pre>
                         <span class="explore">
                             <a style="color: rgb(29, 135, 255);">+Explore</a></span>
                     </div>
                 </div>
                 <div class=" genere-card">
-                    <a href="#"><img src="image/joker.jpg" alt="" class="genere"></a>
+                    <img src="image/joker.jpg" alt="" class="genere">
                     <div class="genere-detail pt-1  " id="boxshadow">
-                        <pre style="float: left;font-size:large; color: whitesmoke;">  Drama  </pre>
+                        <pre style="float: left; font-size:large; color: whitesmoke;">  Drama  </pre>
                         <span class="explore">
                             <a style="color: rgb(29, 135, 255);">+Explore</a></span>
                     </div>
                 </div>
             </div>
-            <div class="seeMore mx-5 mt-4 mb-5">
-                <center style="margin-bottom: -12px; padding-top: 5px;">
-                    <a href="#">
-                        <p style="font-size: x-large;">See more</p>
-                    </a>
-                </center>
-            </div>
+            <a href="#"><div class="seeMore mx-5  mt-1 mb-4">
+                <p style="font-size: x-large;">See more</p>
+            </div></a>
         </div>
 
     </div>
@@ -536,20 +516,22 @@
 
 
     <div class="page-2">
-        <div class="container-img">
-            <a href="#"><img src="image/play-button.svg" alt="" class="playButton" style="left:950px;"></a>
-            <img src="image/MoneyHeist-3.png" alt="" class="moneyheist-img1" style="width:58%; height:450px; ">
+        <div class="container-img" id="image1">
+            <div class="container-img">
+                <a href="#"><img src="image/play-button.svg" alt="" class="playButton"></a>
+                <img src="image/MoneyHeist-1.png" alt="" class="moneyheist-img1">
+            </div>
         </div>
 
-        <div class="m-5">
+        <div class="mx-5 " id="page2-detail">
             <h1 class="">"Money Heist : Part 4"</h1>
             <p style="color: rgb(180, 180, 180);">Season 4 | 2019 <img style="height: 8px;"
                     src="https://img.icons8.com/emoji/48/000000/star-emoji.png" /> 4.3</p>
-            <p style="color: rgb(180, 180, 180);">Lives are on the line Professor's plan begins to unravel and the
+            <p style="color: rgb(180, 180, 180); ">Lives are on the line Professor's plan begins to unravel and the
                 thieves
                 must fend off enemies from both inside
                 and outside the Bank and Spain</p>
-            <a class="btn  watch px-4 " href="#" role="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            <div class="btn  watch px-4 " href="#" role="button"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="28" height="28" viewBox="0 0 172 172" style=" fill:#000000;">
                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
                         stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
@@ -562,7 +544,7 @@
                             </path>
                         </g>
                     </g>
-                </svg><span style="font-size:20px; color: white;"> Watch</span></a>
+                </svg><span style="font-size:20px; color: white;"> Watch</span></div>
             <button class="btn wishlist mx-3" onclick="switchPage();"><svg xmlns="http://www.w3.org/2000/svg" x="0px"
                     y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
                     <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
@@ -604,23 +586,22 @@
 
         </div>
 
-
-        <div class="mx-5 card-deck">
-            <div style=" margin-bottom: 20px;">
+        <div class="fanFav mx-5">
+            <div class="mx-5 mt-1 mb-3">
                 <h5>| Fan Favourites</h5>
             </div>
-            <div style="height: 200px;">
-                <div class="movie-card mr-3 ">
-                    <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image "></a>
-                    <div class="movie-card-detail px-2 mt-1 pt-2 ">
+            <div class="fan mb-4">
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
                         <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
                         <span style="font-weight: bold;">Gully Boy</span>
                         <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                     width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
                                     <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                        text-anchor="none" style="mix-blend-mode: normal">
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
                                         <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
                                         <g fill="#ffffff" fill-rule="evenodd">
                                             <path
@@ -636,24 +617,23 @@
                             the lives of street
                             rappers in Mumbai.</p>
                         <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                            2019 | <img style="height: 8px;"
-                                src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
                             4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
                             src="image/UA.svg" alt="">
                     </div>
                 </div>
-
-                <div class="movie-card mx-4">
-                    <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                    <div class="movie-card-detail px-2 mt-1 pt-2 ">
+        
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
                         <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
                         <span style="font-weight: bold;">Gully Boy</span>
                         <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                     width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
                                     <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                        text-anchor="none" style="mix-blend-mode: normal">
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
                                         <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
                                         <g fill="#ffffff" fill-rule="evenodd">
                                             <path
@@ -669,24 +649,22 @@
                             the lives of street
                             rappers in Mumbai.</p>
                         <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                            2019 | <img style="height: 8px;"
-                                src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
                             4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
                             src="image/UA.svg" alt="">
                     </div>
                 </div>
-
-                <div class="movie-card mx-3">
-                    <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                    <div class="movie-card-detail px-2 mt-1 pt-2 ">
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
                         <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
                         <span style="font-weight: bold;">Gully Boy</span>
                         <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                     width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
                                     <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                        text-anchor="none" style="mix-blend-mode: normal">
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
                                         <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
                                         <g fill="#ffffff" fill-rule="evenodd">
                                             <path
@@ -702,23 +680,23 @@
                             the lives of street
                             rappers in Mumbai.</p>
                         <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                            2019 | <img style="height: 8px;"
-                                src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
                             4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
                             src="image/UA.svg" alt="">
                     </div>
                 </div>
-                <div class="movie-card " style="margin-left: 21px;">
-                    <a href="#"><img src="image/gullyBoy.jpg" alt="" class="card-image"></a>
-                    <div class="movie-card-detail px-2 mt-1 pt-2 ">
+        
+                <div class="movie-card ">
+                    <img src="image/gullyBoy.jpg" alt="" class="card-image ">
+                    <div class="movie-card-detail px-2 mt-5 pt-2 ">
                         <a href="#"><img src="image/play-circle-icon.svg" alt="" style="width: 28px;"></a>
                         <span style="font-weight: bold;">Gully Boy</span>
                         <a href="#"><span style="float: right;"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                                     width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;">
                                     <g fill="none" fill-rule="none" stroke="none" stroke-width="1" stroke-linecap="butt"
-                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
-                                        stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
-                                        text-anchor="none" style="mix-blend-mode: normal">
+                                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                                        style="mix-blend-mode: normal">
                                         <path d="M0,172v-172h172v172z" fill="none" fill-rule="nonzero"></path>
                                         <g fill="#ffffff" fill-rule="evenodd">
                                             <path
@@ -734,14 +712,17 @@
                             the lives of street
                             rappers in Mumbai.</p>
                         <p style="padding-bottom: 5px; font-size: 8px; color: rgb(204, 204, 204); ">2 hr 33 min. |
-                            2019 | <img style="height: 8px;"
-                                src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
+                            2019 | <img style="height: 8px;" src="https://img.icons8.com/emoji/48/000000/star-emoji.png" />
                             4.3 </p><img style="height: 27px; float: right; position: relative; left: 20px; top: -39px;"
                             src="image/UA.svg" alt="">
                     </div>
                 </div>
             </div>
         </div>
+
+            
+
+            
 
     </div>
 
@@ -760,7 +741,7 @@
                 <pre><a href="#">About Flux</a>                <a href="#">Career</a>                <a href="#">FAQ</a>                  <a href="#">Get the App</a></pre>
                 <pre><a href="#">Terms and Policies</a>         <a href="#">Send Feedback</a>          <a href="#">Help</a></pre>
                 <img src="image/flux.png" alt="">
-                <pre>&#169; 1990-2020 by Flux.com,inc</pre>
+                <pre style="margin-bottom: 0px;">&#169; 1990-2020 by Flux.com,inc</pre>
             </div>
         </center>
     </footer>
